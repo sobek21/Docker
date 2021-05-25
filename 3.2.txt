@@ -1,0 +1,1 @@
+docker  run -d --name kodilla-quotes -v C:\Users\mateusz.sobkowicz\postgres-data:/var/lib/postgresql/data -p 5432:5432 -e POSTGRES_USER=kodilla -e POSTGRES_PASSWORD=kodilla postgres:9.6
